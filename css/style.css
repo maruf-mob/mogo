@@ -1,0 +1,718 @@
+*{
+    padding:0;
+    margin:0;
+}
+img{
+    vertical-align: middle;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+.full-wrapper{
+    width:100%;
+}
+.container{
+    width:1200px;
+    margin:0 auto;
+}
+.clr{
+    clear:both;
+}
+/* ======================================
+            common css ends
+========================================= */
+.m-30{
+    margin:0px 30px;                    
+}
+.mtb-10{
+    margin:10px 0;
+}             
+.m-150{
+    margin:0px 150px;                    
+}             
+.mr-30{
+    margin-right:30px;
+}
+.mr-60{
+    margin-right:60px;
+}
+.mr-130{
+    margin-right:130px;
+}
+.ml-30{
+    margin-left:30px;
+}
+.mb-100{
+    margin-bottom:100px;
+}
+
+/* ======================================
+            margin css ends
+========================================= */
+.border{
+    width:60px;
+    height:3px;
+    background:#ffffff;
+    margin:50px auto;
+}
+
+/* ======================================
+            border css ends
+========================================= */
+
+.heading-caption{
+    text-align:center;
+}
+.heading-caption h4{
+    font-family:'Kaushan Script', cursive;
+    font-size:24px;
+    color:#333333;
+    
+}
+.heading-caption h2{
+    font-family:'Montserrat', sans-serif;
+    font-size:30px;
+    color:#333333;
+    font-weight: 700;
+    text-transform: uppercase; 
+    padding-top:25px;       
+    
+}
+
+
+
+
+/* ======================================
+            heading-caption css ends
+========================================= */
+
+
+
+.menu-bg{
+    height:38px;
+    position:absolute;
+    top:30px;;
+    left:0;
+    z-index:999;
+}
+.menu-bg .menu{
+    height:38px;
+}
+.menu-bg .menu .logo{
+    width:103px;
+    height:36px;
+    float:left;
+}
+.menu-bg .menu .nav-bar{
+    width:620px;
+    height:36px;
+    float:right;
+}
+.menu-bg .menu .nav-bar ul li{
+    float:left;
+    line-height:36px;
+    font-family:'Montserrat', sans-serif;
+    font-weight:400;
+    font-size:14px;
+    color:#ffffff;
+    text-transform: uppercase;
+    margin-right:50px;
+    transition:all linear 0.4s;
+}
+.menu-bg .menu .nav-bar ul li:last-child{
+    margin-right:0;
+}
+.menu-bg .menu .nav-bar ul li:hover{
+    color:#fce38a;
+    border-bottom:3px solid #fce38a;
+    
+}
+.menu-bg .menu .nav-bar ul li:hover:nth-child(6){
+    border-bottom:none;
+}
+.menu-bg .menu .nav-bar ul li:hover:last-child{
+    border-bottom:none;
+}
+
+/* ======================================
+            menu css ends
+========================================= */
+.landing-section-bg{
+    height:1000px;
+    background-image: url(../images/landing-image.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:relative;
+    padding-bottom:70px;
+    margin-bottom:92px;
+}
+.landing-section-bg .landing-section{
+    height:680px;
+    text-align:center;
+    
+}
+.landing-section-bg .landing-section h3{
+    font-family: 'Kaushan Script', cursive;
+    font-size:72px;
+    text-transform: capitalize;
+    color:#ffffff;
+    padding-top:170px;
+    padding-bottom:70px;
+}
+.landing-section-bg .landing-section h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size:150px;
+    text-transform: uppercase;
+    color:#ffffff;
+    padding:0 60px;
+    margin-bottom:25px;
+}
+.landing-section-bg .landing-section a{
+    width:160px;
+    height:40px;
+    text-align:center;
+    border:3px solid #ffffff;
+    font-family:'Montserrat', sans-serif;
+    font-weight:500;
+    font-size:14px;
+    text-transform: uppercase;
+    color:#ffffff;
+    padding:12px 30px;
+}
+.landing-section-bg .landing-section i{
+    color:#ffffff;
+    padding-top:118px;
+}
+.landing-section-bg .landing-section i.active{
+    color:#ff2828;
+}
+
+/* ======================================
+            landing section css ends
+========================================= */
+.about-bg{
+    height:548px;
+    padding-bottom:112px;
+}
+.about-bg .about{
+    height:548px;
+}
+.about-bg .about .about-head{
+    height:195px;
+}
+.about-bg .about .about-head .border{
+    background:#f38181;
+}
+.about-bg .about .about-head p{
+    text-align:center;
+    font-family:'Roboto', sans-serif;
+    font-size:15px;
+    color:#999999;
+    padding:0 128px;
+}
+.about-bg .about .about-gallery{
+    height:353px;
+    padding-top:105px;
+    
+}
+.about-bg .about .about-gallery .gallery-item{
+    width:380px;
+    height:250px;
+    background:darkseagreen;
+    float:left;
+    position:relative;
+}
+.about-bg .about .about-gallery .gallery-item .gallery-overlay{
+    width:100%;
+    height:100%;
+    position:absolute;
+    left:0;
+    top:0;
+    background:linear-gradient(to top,#fce38a,#f38181);
+    opacity: 0.9;
+    text-align:center;
+    visibility:hidden;
+}
+.about-bg .about .about-gallery .gallery-item .gallery-overlay img{
+    padding-top:106px;
+    padding-bottom:12px;
+}
+.about-bg .about .about-gallery .gallery-item .gallery-overlay h5{
+    font-family:'Montserrat', sans-serif;
+    font-size:18px;
+    color:#ffffff;
+    text-transform: uppercase;
+}
+.about-bg .about .about-gallery .gallery-item:hover .gallery-overlay{
+    visibility: visible;
+}
+
+
+/* ======================================
+            about section css ends
+========================================= */
+.project-detail-bg{
+    height:270px;
+    background:#95e1d3;
+    margin-bottom:112px;
+}
+.project-detail-bg .project-detail{
+    height:270px;
+}
+.project-detail-bg .project-detail .project-content{
+    text-align: center;
+    float:left;
+    padding-top:90px;
+}
+.project-detail-bg .project-detail .project-content h2{
+    font-family:'Montserrat', sans-serif;
+    font-size:72px;
+    font-weight:700;
+    color:#ffffff;
+}
+.project-detail-bg .project-detail .project-content p{
+    font-family:'Montserrat', sans-serif;
+    font-size:14px;
+    color:#ffffff;
+    text-transform: uppercase;
+}
+/* ======================================
+            project-details css ends
+========================================= */
+.service-bg{
+    height:540px;
+    padding-bottom:120px;
+}
+.service-bg .service{
+    height:540px;
+    position:relative;
+}
+.service-bg .service .heading-caption h4{
+    color:#333333;
+}
+.service-bg .service .heading-caption h2{
+    color:#333333;
+}
+.service-bg .service .border{
+    background:#f38181;
+    margin-bottom:65px;
+}
+.service-bg .service .service-content{
+    width:380px;
+    height:120px;
+    float:left;
+    box-sizing: border-box;  
+}
+.service-bg .service .line{
+    width:1200px;
+    height:1px;
+    background:#e5e5e5;
+    position:absolute;
+    top:64%;
+    left:0;
+}
+.service-bg .service .service-content .service-content-image{
+    width:73px;
+    height:120px;
+    float:left;
+    text-align:center;
+}
+.service-bg .service .service-content .service-content-detail{
+    width:307px;
+    height:120px;
+    float:left;
+}
+.service-bg .service .service-content .service-content-detail h4{
+    font-family:'Montserrat', sans-serif;
+    font-size:14px;
+    text-transform: uppercase;
+    color:#333333;
+    padding-bottom:20px;
+}
+.service-bg .service .service-content .service-content-detail p{
+    font-family:'Roboto', sans-serif;
+    font-size:15px;
+    color:#999999;
+}
+/* ======================================
+            service section css ends
+========================================= */
+.unique-design-bg{
+    height:890px;
+    background-image: url(../images/unique-bg.jpg);
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    margin-bottom:100px;
+}
+.unique-design-bg .unique-design{
+    height:890px;
+    position:relative;
+}
+.unique-design-bg .unique-design .heading-caption{
+    padding-top:100px;
+}
+.unique-design-bg .unique-design .customize{
+    position:absolute;
+    left:50%;
+    bottom:0;
+    transform:translateX(-50%);
+    -webkit-transform:translateX(-50%);
+    -moz-transform:translateX(-50%);
+    -ms-transform:translateX(-50%);
+    -o-transform:translateX(-50%);
+}
+.unique-design-bg .unique-design .mobile{
+    position:absolute;
+    right:16.8%;
+    bottom:-90px;
+    
+}
+.unique-design-bg .unique-design .border{
+    background:#f38181;
+}
+
+
+/* ======================================
+            unique-design css ends
+========================================= */
+.we-do-bg{
+    height:710px;
+    padding-bottom:120px;
+}
+.we-do-bg .we-do{
+    height:710px;
+    box-sizing: border-box;
+}
+.we-do-bg .we-do .border{
+    background: #ff2828;
+}
+.we-do-bg .we-do p.change{
+    text-align:center;
+    font-family: 'Roboto', sans-serif;
+    font-size:15px;
+    color:#999999;
+    padding:0 102px;
+}
+.we-do-bg .we-do .do-content{
+    padding-top:95px;
+}
+.we-do-bg .we-do .do-content .do-image{
+    width:570px;
+    height:380px;
+    float:left;
+    background:#999999;
+}
+.we-do-bg .we-do .do-content .do-details{
+    width:600px;
+    height:380px;
+    float:right;
+    box-sizing: border-box;
+}
+.we-do-bg .we-do .do-content .do-details .details-1{
+    width:600px;
+    height:235px;
+    border:1px solid #e5e5e5;
+}
+.we-do-bg .we-do .do-content .do-details .details-1 .photography{
+    height:60px;
+    width:600px;
+    border-bottom:1px solid #e5e5e5;
+}
+.we-do-bg .we-do .do-content .do-details .details-1 .photography .p-logo{
+    width:60px;
+    height:60px;
+    float:left;
+    text-align:center;
+    padding-top:15px;
+}
+.we-do-bg .we-do .do-content .do-details .details-1 .photography .p-heading{
+    width:480px;
+    height:60px;
+    float:left;
+}
+.we-do-bg .we-do .do-content .do-details .details-1 .photography .p-heading h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size:14px;
+    color:#333333;
+    line-height:60px;
+    text-transform: uppercase;    
+}
+.we-do-bg .we-do .do-content .do-details .details-1 .photography .marking{
+    width:60px;
+    height:60px;
+    float:left;
+    text-align:center;
+}
+.we-do-bg .we-do .do-content .do-details .details-1 .photography .marking i{
+    font-size:14px;
+    color:#cccccc;
+    line-height:60px;
+}
+.we-do-bg .we-do .do-content .do-details .details-1 .photography-detail{
+    width:600px;
+    height:175px;
+}
+.we-do-bg .we-do .do-content .do-details .details-1 .photography-detail p {
+    font-family:'Roboto', sans-serif;
+    font-size:15px;
+    font-weight: 300;
+    font-style: italic;
+    color:#999999;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-right: 64px;
+}
+.we-do-bg .we-do .do-content .do-details .details-2{
+    width:600px;
+    height:60px;
+    border:1px solid #e5e5e5;
+}
+.we-do-bg .we-do .do-content .do-details .details-2 .creativity .c-logo{
+    width:60px;
+    height:60px;
+    float:left;
+    text-align:center;
+    padding-top:15px;
+}
+.we-do-bg .we-do .do-content .do-details .details-2 .creativity .c-heading{
+    width:480px;
+    height:60px;
+    float:left;
+}
+.we-do-bg .we-do .do-content .do-details .details-2 .creativity .c-heading h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size:14px;
+    color:#333333;
+    line-height:60px;
+    text-transform: uppercase;    
+}
+.we-do-bg .we-do .do-content .do-details .details-2 .creativity .marking{
+    width:60px;
+    height:60px;
+    float:left;
+    text-align:center;
+}
+.we-do-bg .we-do .do-content .do-details .details-2 .creativity .marking i{
+    font-size:14px;
+    color:#cccccc;
+    line-height:60px;
+}    
+.we-do-bg .we-do .do-content .do-details .details-3{
+    width:600px;
+    height:60px;
+    border:1px solid #e5e5e5;
+    box-sizing: border-box;
+}
+.we-do-bg .we-do .do-content .do-details .details-3 .website{
+    width:600px;
+    height:60px;
+}
+.we-do-bg .we-do .do-content .do-details .details-3 .website .website-logo{
+    width:60px;
+    height:60px;
+    float:left;
+    margin-left:-60px;
+    text-align:center;
+    padding-top:15px;
+    
+} 
+.we-do-bg .we-do .do-content .do-details .details-3 .website .website-heading{
+    width:480px;
+    height:60px;
+    float:left;    
+} 
+.we-do-bg .we-do .do-content .do-details .details-3 .website .website-heading h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size:14px;
+    color:#333333;
+    line-height:60px;
+    text-transform: uppercase;
+}
+.we-do-bg .we-do .do-content .do-details .details-3 .website .website-marking{
+    width:60px;
+    height:60px;
+    float:left;
+    text-align:center;
+} 
+.we-do-bg .we-do .do-content .do-details .details-3 .website .website-marking i{
+    font-size:14px;
+    color:#cccccc;
+    line-height:60px;
+}
+
+/* ======================================
+            we-do section css ends
+========================================= */
+.comments-bg{
+    height:290px;
+    background:#f8f8f8;
+    margin-bottom:100px;
+}
+.comments-bg .comments{
+    height:290px;
+}
+.comments-bg .comments .comments-content{
+    padding-top:70px;
+    padding-left:110px;
+    position: relative;
+}
+.comments-bg .comments .comments-content i.left-mark{
+    position:absolute;
+    left:23px;
+    top:135px;
+    font-size:24px;
+    color:#cccccc;
+}
+.comments-bg .comments .comments-content i.right-mark{
+    position:absolute;
+    right:23px;
+    top:135px;
+    font-size:24px;
+    color:#cccccc;
+}
+.comments-bg .comments .comments-content .comment-box{
+    width:149px;
+    height:149px;
+    float:left;
+    background:#ffffff;
+    text-align:center;
+    border:3px solid #95e1d3;
+}
+.comments-bg .comments .comments-content .comment-box img{
+    padding-top:42px;
+}
+.comments-bg .comments .comments-content .comment-text{
+    width:800px;
+    height:149px;
+    float:left;
+    position:relative;
+}
+.comments-bg .comments .comments-content .comment-text p{
+    font-family:'Roboto', sans-serif;
+    font-size:23px;
+    font-style:italic;
+    color:#999999;
+    padding-top:10px;
+}
+.comments-bg .comments .comments-content .comment-text .border{
+    position:absolute;
+    background:#f38181;
+    left:0;
+    bottom:-35px;
+}
+.comments-bg .comments .comments-content .comment-text h3{
+    font-family:'Kaushan Script', cursive;
+    font-size:24px;
+    color:#333333;
+    text-transform: capitalize;
+    padding-top:18px;
+    padding-left:70px;
+}
+
+/* ======================================
+            comment section css ends
+========================================= */
+.team-bg{
+    height:890px;
+    padding-bottom:120px;
+}
+.team-bg .team{
+    height:890px;
+}
+.team-bg .team .border{
+    background:#f38181;
+}
+.team-bg .team p.change{
+    font-family:'Roboto', sans-serif;
+    font-size:15px;
+    color:#999999;
+    text-align:center;
+    padding:0 102px;
+    margin-bottom:94px;
+    
+}
+.team-bg .team .team-content{
+    width:380px;
+    height:470px;
+    background:#95e1d3;
+    float:left;
+    position:relative;
+}
+.team-bg .team .team-content .detail{
+    height:50px;
+    width:380px;
+    position:absolute;
+    bottom:-90px;
+    left:0;
+    text-align:center;
+}
+.team-bg .team .team-content .detail h5{
+    font-family: 'Montserrat', sans-serif;
+    font-size:14px;
+    text-transform: uppercase;
+    color:#333333;
+    padding-bottom:17px;
+}
+.team-bg .team .team-content .detail p{
+    font-family: 'Roboto', sans-serif;
+    font-size:15px;
+    font-style: italic;
+    text-transform: capitalize;
+    color:#999999;
+}
+
+
+.team-bg .team .team-content:hover .content-overlay{
+    visibility: visible;
+}
+.team-bg .team .team-content .content-overlay{
+    height:100%;
+    width:100%;
+    position:absolute;
+    left:0;
+    top:0;
+    background:linear-gradient(to top,#fce38a,#f38181);
+    opacity: 0.9;
+    text-align:center;
+    visibility:hidden;
+}
+.team-bg .team .team-content .content-overlay ul{
+    position:absolute;
+    top:50%;
+    left:78px;
+}
+.team-bg .team .team-content .content-overlay ul li{
+    float:left;
+    width:56px;
+    height:56px;
+    background:#fce38a;
+    text-align: center;
+    margin-right:2px;
+    
+}
+.team-bg .team .team-content .content-overlay ul li:hover{
+    background:#f38181;
+}
+.team-bg .team .team-content .content-overlay ul li:hover i{
+    color:#ffffff;
+}
+.team-bg .team .team-content .content-overlay ul li:last-child{
+    margin-right:0;
+}
+
+.team-bg .team .team-content .content-overlay ul li i{
+    color:#f38181;
+    font-size:15px;
+    line-height:56px;
+}
+
+
+
+/* ======================================
+            team section css ends
+========================================= */
