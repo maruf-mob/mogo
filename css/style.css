@@ -711,8 +711,37 @@ ul,ol{
     line-height:56px;
 }
 
+/* ======================================
+            team section css ends
+========================================= */
+.sponsor-bg{
+    height:250px;
+    background:#f8f8f8;
+    margin-bottom:110px;
+}
+.sponsor-bg .sponsor{
+    height:250px;
+}
+.sponsor-bg .sponsor ul li{
+    height:129px;
+    width:129px;
+    float:left;
+    margin-right:81px;
+    padding-top:65px;
+    
+}
+.sponsor-bg .sponsor ul li:first-child{
+    margin-left:10px;
+}
+
+.sponsor-bg .sponsor ul li:last-child{
+    margin-right:0;
+}
+
+
+
 
 
 /* ======================================
-            team section css ends
+            sponsor section css ends
 ========================================= */
