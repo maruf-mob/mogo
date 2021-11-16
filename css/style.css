@@ -130,8 +130,10 @@ ul,ol{
 }
 .menu-bg .menu .nav-bar ul li:hover{
     color:#fce38a;
-    border-bottom:3px solid #fce38a;
-    
+    border-bottom:3px solid #fce38a;   
+}
+.menu-bg .menu .nav-bar ul li.active{
+    color:#fce38a;
 }
 .menu-bg .menu .nav-bar ul li:hover:nth-child(6){
     border-bottom:none;
@@ -960,7 +962,8 @@ ul,ol{
 }
 .client-bg .client .client-option .client-detail .border{
     margin-left:0;
-    margin-bottom:24px;
+    margin-top:18px;
+    margin-bottom:24px;  
 }
 .client-bg .client .client-option .client-detail p{
     font-family:'Roboto', sans-serif;
