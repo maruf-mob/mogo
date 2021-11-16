@@ -447,6 +447,7 @@ ul,ol{
     height:60px;
     float:left;
     text-align:center;
+    cursor: pointer;
 }
 .we-do-bg .we-do .do-content .do-details .details-1 .photography .marking i{
     font-size:14px;
@@ -466,6 +467,7 @@ ul,ol{
 	padding-left: 20px;
 	padding-top: 20px;
 	padding-right: 64px;
+    line-height:24px;
 }
 .we-do-bg .we-do .do-content .do-details .details-2{
     width:600px;
@@ -501,6 +503,7 @@ ul,ol{
     font-size:14px;
     color:#cccccc;
     line-height:60px;
+    cursor: pointer;
 }    
 .we-do-bg .we-do .do-content .do-details .details-3{
     width:600px;
@@ -543,6 +546,7 @@ ul,ol{
     font-size:14px;
     color:#cccccc;
     line-height:60px;
+    cursor: pointer;
 }
 
 /* ======================================
@@ -597,21 +601,23 @@ ul,ol{
     font-size:23px;
     font-style:italic;
     color:#999999;
-    padding-top:10px;
+    font-weight:300;
+    line-height:36px;
+    padding:0 10px;
 }
 .comments-bg .comments .comments-content .comment-text .border{
     position:absolute;
     background:#f38181;
-    left:0;
-    bottom:-35px;
+    left:10px;
+    bottom:-45px;
 }
 .comments-bg .comments .comments-content .comment-text h3{
     font-family:'Kaushan Script', cursive;
     font-size:24px;
     color:#333333;
     text-transform: capitalize;
-    padding-top:18px;
-    padding-left:70px;
+    padding-top:13px;
+    padding-left:80px;
 }
 
 /* ======================================
@@ -666,10 +672,6 @@ ul,ol{
     color:#999999;
 }
 
-
-.team-bg .team .team-content:hover .content-overlay{
-    visibility: visible;
-}
 .team-bg .team .team-content .content-overlay{
     height:100%;
     width:100%;
@@ -680,6 +682,10 @@ ul,ol{
     opacity: 0.9;
     text-align:center;
     visibility:hidden;
+}
+
+.team-bg .team .team-content:hover .content-overlay{
+    visibility: visible;
 }
 .team-bg .team .team-content .content-overlay ul{
     position:absolute;
@@ -738,10 +744,161 @@ ul,ol{
     margin-right:0;
 }
 
-
-
+/* ======================================
+            sponsor section css ends
+========================================= */
+.work-bg{
+    height:1080px;
+    margin-bottom:40px;
+}
+.work-bg .gallery{
+    width:25%;
+    height:780px;
+    float:left;
+    margin-top:55px;
+}
+.work-bg .gallery .gallery-item{
+    height:390px;
+    position:relative;
+    overflow: hidden;
+}
+.work-bg .gallery .gallery-item .item-overlay{
+    height:100%;
+    width:100%;
+    background:linear-gradient(to top,#fce38a,#f38181);
+    position:absolute;
+    top:0;
+    left:0;
+    opacity: 0.9;
+    text-align:center;
+    visibility:hidden;
+    
+}
+.work-bg .gallery .gallery-item:hover .item-overlay{
+    visibility:visible;
+}
+.work-bg .gallery .gallery-item .item-overlay img{
+    padding-top:150px;
+    padding-bottom:20px;
+}
+.work-bg .gallery .gallery-item .item-overlay h5{
+    font-family:'Montserrat', sans-serif;
+    font-size:14px;
+    color:#ffffff;
+    text-transform: uppercase;
+    padding-bottom:18px;
+}
+.work-bg .gallery .gallery-item .item-overlay p{
+    font-family:'Roboto', sans-serif;
+    font-size:15px;
+    font-style: italic;
+    color:#ffffff;
+}
+.work-bg .gallery .custom{
+    height:780px;
+    position:relative;
+    overflow: hidden;
+}
+.work-bg .gallery .gallery-item .item-overlay img.custom-pro{
+    padding-top:85%;
+}
+.work-bg .work{
+    height:240px;
+}
+.work-bg .work .border{
+    background:#f38181;
+}
+.work-bg .work p{
+    text-align: center;
+    font-family:'Roboto', sans-serif;
+    font-size:15px;
+    color:#999999;
+    padding:0 102px;
+}
 
 
 /* ======================================
-            sponsor section css ends
+            work section css ends
+========================================= */
+.message-bg{
+    height:290px;
+    margin-bottom:100px;
+}
+.message-bg .message{
+    height:290px;
+}
+.message-bg .message .message-content{
+    padding-top:40px;
+    padding-left:73px;
+    position: relative;
+}
+.message-bg .message .message-content i.left-mark{
+    position:absolute;
+    left:23px;
+    top:135px;
+    font-size:24px;
+    color:#cccccc;
+}
+.message-bg .message .message-content i.right-mark{
+    position:absolute;
+    right:23px;
+    top:135px;
+    font-size:24px;
+    color:#cccccc;
+}
+.message-bg .message .message-content .message-box{
+    width:210px;
+    height:210px;
+    float:left;
+    background:#ffffff;
+    text-align:center;
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+}
+.message-bg .message .message-content .message-box img{
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+}
+.message-bg .message .message-content .message-text {
+	width: 814px;
+	height: 149px;
+	float: left;
+	position: relative;
+	padding-top: 25px;
+}
+.message-bg .message .message-content .message-text p{
+    font-family:'Roboto', sans-serif;
+    font-size:22px;
+    font-style:italic;
+    color:#999999;
+    padding-top:10px;
+    margin-left:-80px;
+    padding:0 69px;
+    font-weight: 300;
+    line-height:36px;
+}
+.message-bg .message .message-content .message-text .border{
+    position:absolute;
+    background:#f38181;
+    left:-15px;
+    bottom:-62px;
+}
+.message-bg .message .message-content .message-text h3{
+    font-family:'Kaushan Script', cursive;
+    font-size:24px;
+    color:#333333;
+    text-transform: capitalize;
+    padding-top:30px;
+    padding-left:58px;
+}
+
+
+/* ======================================
+            message section css ends
 ========================================= */
