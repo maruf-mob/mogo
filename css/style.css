@@ -29,6 +29,9 @@ ul,ol{
 }
 .mtb-10{
     margin:10px 0;
+}
+.mb-30{
+    margin-bottom:30px;
 }             
 .m-150{
     margin:0px 150px;                    
@@ -898,7 +901,75 @@ ul,ol{
     padding-left:58px;
 }
 
-
 /* ======================================
             message section css ends
+========================================= */
+.client-bg{
+    height:830px;
+    background-image:url(../images/client-bg.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+.client-bg .client{
+    height:830px;
+}
+
+.client-bg .client .heading-caption{
+    padding-top:100px;
+}
+.client-bg .client .heading-caption h4{
+    text-transform: capitalize;
+}
+.client-bg .client .heading-caption h2{
+    margin-top:-10px;
+}
+.client-bg .client .border{
+    background:#f38181;
+}
+.client-bg .client .client-option{
+    width:580px;
+    height:190px;
+    float:left;
+}
+.client-bg .client .client-option .client-image{
+    width:174px;
+    height:190px;
+    float:left;
+    text-align:center;
+}
+.client-bg .client .client-option .client-detail{
+    width:406px;
+    height:190px;
+    float:left;
+}
+.client-bg .client .client-option .client-detail h5{
+    font-family:'Montserrat', sans-serif;
+    font-size:14px;
+    text-transform: uppercase;
+    color:#333333;
+    padding-top:15px;
+    padding-bottom:15px;
+}
+.client-bg .client .client-option .client-detail h6{
+    font-family:'Roboto', sans-serif;
+    font-size:15px;
+    font-weight:300;
+    font-style:italic;
+    text-transform: capitalize;
+}
+.client-bg .client .client-option .client-detail .border{
+    margin-left:0;
+    margin-bottom:24px;
+}
+.client-bg .client .client-option .client-detail p{
+    font-family:'Roboto', sans-serif;
+    font-size:15px;
+    line-height:24px;
+    color:#999999;
+    padding-right:10px;
+}
+
+/* ======================================
+            client section css ends
 ========================================= */
