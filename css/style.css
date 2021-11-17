@@ -912,6 +912,7 @@ ul,ol{
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
+    margin-bottom:120px;
 }
 .client-bg .client{
     height:830px;
@@ -975,4 +976,114 @@ ul,ol{
 
 /* ======================================
             client section css ends
+========================================= */
+.blog-bg{
+    height:590px;
+    padding-bottom:65px;
+}
+.blog-bg .blog{
+    height:590px;
+    /* background:#8afce9; */
+}
+.blog-bg .blog .border{
+    background:#f38181;
+}
+.blog-bg .blog .blog-item{
+    width:380px;
+    height:385px;
+    float:left;
+    box-sizing: border-box;
+    position:relative;
+}
+.blog-bg .blog .blog-item .box{
+    width:60px;
+    height:70px;
+    background:#95e1d3;
+    position:absolute;
+    top:155px;
+    left:-10px;
+    text-align:center;
+}
+.blog-bg .blog .blog-item .box h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size:30px;
+    color:#ffffff;
+    padding-top:10px;
+}
+.blog-bg .blog .blog-item .box h6{
+    font-family: 'Roboto', sans-serif;
+    font-size:15px;
+    color:#ffffff;
+    font-weight: 300;
+    font-style: italic;
+    text-transform: capitalize;
+    padding-top:-5px;
+}
+
+.blog-bg .blog .blog-item .blog-image{
+    height:240px;
+    width:380px;
+    margin-bottom:20px;
+}
+.blog-bg .blog .blog-item .blog-detail{
+    height:100px;
+    width:380px;
+}
+
+.blog-bg .blog .blog-item .blog-detail h5{
+    font-family:'Montserrat', sans-serif;
+    font-size:14px;
+    color:#333333;
+    text-transform: uppercase;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.blog-bg .blog .blog-item .blog-detail p{
+    font-family:'Roboto', sans-serif;
+    font-size:15px;
+    color:#999999;
+    line-height:24px;
+}
+.blog-bg .blog .blog-item .blog-detail p.need{
+    padding-right:10px;
+}
+.blog-bg .blog .blog-item .line{
+    position:absolute;
+    bottom:25px;
+    left:0;
+    width:380px;
+    height:1px;
+    background:#e5e5e5;
+}
+.blog-bg .blog .blog-item .blog-viewer{
+    height:30px;
+    width:380px;
+}
+.blog-bg .blog .blog-item .blog-viewer ul{
+    padding-top:10px;
+}
+.blog-bg .blog .blog-item .blog-viewer ul li{
+    float:left;
+    margin-right:8px;
+    color:#999999;
+    font-family: 'Roboto', sans-serif;
+    font-size:15px;
+    font-weight: 300;
+    font-style: italic;
+}
+.blog-bg .blog .blog-item .blog-viewer ul li i{
+    color:#95e1d3;
+}
+.blog-bg .blog .blog-item .blog-viewer ul li:nth-child(2){
+    margin-right:20px;
+}
+.blog-bg .blog .blog-item .blog-viewer ul li:last-child{
+    margin-right:0;
+}
+
+
+
+
+/* ======================================
+            blog section css ends
 ========================================= */
