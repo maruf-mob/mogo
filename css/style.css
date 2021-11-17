@@ -1081,9 +1081,39 @@ ul,ol{
     margin-right:0;
 }
 
+/* ======================================
+            blog section css ends
+========================================= */
+.map-bg{
+    height:200px;
+    background-image:url(../images/map-bg.jpg);
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    margin-bottom:75px;
+}
 
+.map-bg .map{
+    height:200px;
+}
+.map-bg .map .heading-caption{
+    padding-top:56px;
+}
+.map-bg .map .heading-caption i{
+    font-size:19px;
+    color:#f38181;
+}
+.map-bg .map .heading-caption h2{
+    font-size:24px;
+    padding-top:20px;
+    color:#f38181;
+}
+.map-bg .map .border{
+    background:#f38181;
+    margin-top:20px;
+}
 
 
 /* ======================================
-            blog section css ends
+            map section css ends
 ========================================= */
